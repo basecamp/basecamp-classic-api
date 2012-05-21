@@ -1,6 +1,5 @@
 Projects
 ========
-
 Get projects
 ------------
 
@@ -18,21 +17,6 @@ Get projects
       ...
     </projects>
 
-
-Project counts
---------------
-
-* `GET /projects/count.xml` returns a count of all projects, by project status.
-
-If there are no projects with a particular status, that status entry will be omitted from the report.
-
-**Response:**
-
-    <count>
-      <active type="integer">5</active>
-      <on-hold type="integer">2</active>
-      <archived type="integer">11</active>
-    </count>
 
 Get project
 -----------
@@ -68,6 +52,7 @@ Create project
 
 Returns status code 201 (Created) on success with the Location header set to the URL for the new project. You can extract the ID of the project from the URL. Failed requests will receive a 422 (Unprocessable Entity) or 500 (Server Error) status code in the response.
 
+
 Update project
 --------------
 
@@ -90,3 +75,19 @@ Only administrative users may update project records. You only need to provide t
 **Response:**
 
 Returns 200 OK on success. Otherwise, returns an error code (e.g. 422 or 403), possibly including a payload describing the error.
+
+
+Project counts
+--------------
+
+* `GET /projects/count.xml` returns a count of all projects, by project status.
+
+If there are no projects with a particular status, that status entry will be omitted from the report.
+
+**Response:**
+
+    <count>
+      <active type="integer">5</active>
+      <on-hold type="integer">2</active>
+      <archived type="integer">11</active>
+    </count>

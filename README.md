@@ -31,6 +31,7 @@ Be sure to set both the 'Content-Type' and 'Accept' headers to 'application/xml'
 API Endpoints
 -------------
 
+* [Account](https://github.com/37signals/basecamp-classic-api/blob/master/sections/account.md)
 * [Projects](https://github.com/37signals/basecamp-classic-api/blob/master/sections/projects.md)
 * [People](https://github.com/37signals/basecamp-classic-api/blob/master/sections/people.md)
 * [Companies](https://github.com/37signals/basecamp-classic-api/blob/master/sections/companies.md)
