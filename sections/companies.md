@@ -9,15 +9,17 @@ Get companies
 
 **Response:**
 
-    <companies>
-      <company>
-        ...
-      </company>
-      <company>
-        ...
-      </company>
-      ...
-    </company>
+``` xml
+<companies>
+  <company>
+    ...
+  </company>
+  <company>
+    ...
+  </company>
+  ...
+</company>
+```
 
 
 Get company
@@ -27,7 +29,9 @@ Get company
 
 **Response:**
 
-    <company>
-      <id type="integer">1</id>
-      <name>Globex Corporation</name>
-    </company>
+``` xml
+<company>
+  <id type="integer">1</id>
+  <name>Globex Corporation</name>
+</company>
+```

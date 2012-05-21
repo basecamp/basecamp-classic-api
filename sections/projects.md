@@ -7,15 +7,18 @@ Get projects
 
 **Response:**
 
-    <projects>
-      <project>
-        ...
-      </project>
-      <project>
-        ...
-      </project>
-      ...
-    </projects>
+``` xml
+<projects>
+  <project>
+    ...
+  </project>
+  <project>
+    ...
+  </project>
+  ...
+</projects>
+
+```
 
 
 Get project
@@ -25,14 +28,17 @@ Get project
 
 **Response:**
 
-    <project>
-      <name>Design Review</name>
-      ...
-      <company>
-        <name>Globex Corporation</name>
-        ...
-      </company>
-    </project>
+``` xml
+<project>
+  <name>Design Review</name>
+  ...
+  <company>
+    <name>Globex Corporation</name>
+    ...
+  </company>
+</project>
+
+```
 
 
 Create project
@@ -42,11 +48,14 @@ Create project
 
 **Request:**
 
-    <request>
-      <project>
-        <name>Shopping Cart Redesign</name>
-      </project>
-    </request>
+``` xml
+<request>
+  <project>
+    <name>Shopping Cart Redesign</name>
+  </project>
+</request>
+```
+
 
 **Response:**
 
@@ -62,15 +71,18 @@ Only administrative users may update project records. You only need to provide t
 
 **Request:**
 
-    <project>
-      <name type="string">Shopping Cart Redesign</name>
-      <start-page type="string">log|all|todos|milestones|files</start-page>
-      <status>active|on-hold|archived</status>
-      <company-id>#{client-id}</company-id>
-      <show-writeboards>true|false</show-writeboards>
-      <announcement>...</announcement>
-      <show-announcement>true|false</show-announcement>
-    </project>
+``` xml
+<project>
+  <name type="string">Shopping Cart Redesign</name>
+  <start-page type="string">log|all|todos|milestones|files</start-page>
+  <status>active|on-hold|archived</status>
+  <company-id>#{client-id}</company-id>
+  <show-writeboards>true|false</show-writeboards>
+  <announcement>...</announcement>
+  <show-announcement>true|false</show-announcement>
+</project>
+```
+
 
 **Response:**
 
@@ -86,8 +98,10 @@ If there are no projects with a particular status, that status entry will be omi
 
 **Response:**
 
-    <count>
-      <active type="integer">5</active>
-      <on-hold type="integer">2</active>
-      <archived type="integer">11</active>
-    </count>
+``` xml
+<count>
+  <active type="integer">5</active>
+  <on-hold type="integer">2</active>
+  <archived type="integer">11</active>
+</count>
+```

@@ -11,12 +11,15 @@ Get messages
 
 **Response:**
 
-    <posts>
-      <post>
-        ...
-      </post>
-      ...
-    </posts>
+``` xml
+<posts>
+  <post>
+    ...
+  </post>
+  ...
+</posts>
+
+```
 
 
 Get message
@@ -26,9 +29,12 @@ Get message
 
 **Response:**
 
-    <post>
-      ...
-    </post>
+``` xml
+<post>
+  ...
+</post>
+
+```
 
 
 Get archived messages
@@ -41,15 +47,17 @@ Note: that a summary record includes only a few bits of information about a mess
 
 **Response:**
 
-    <posts>
-      <post>
-        ... <!-- abbreviated post -->
-      </post>
-      <post>
-        ... <!-- abbreviated post -->
-      </post>
-      ...
-    </posts>
+``` xml
+<posts>
+  <post>
+    ... <!-- abbreviated post -->
+  </post>
+  <post>
+    ... <!-- abbreviated post -->
+  </post>
+  ...
+</posts>
+```
 
 
 New message
@@ -61,9 +69,12 @@ This endpoint will also return a custom HTTP header, `X-Create-Action` indicatin
 
 **Response:**
 
-    <post>
-      ...
-    </post>
+``` xml
+<post>
+  ...
+</post>
+
+```
 
 
 Create message
@@ -75,27 +86,30 @@ Note: you can also upload files using this function, but you need to upload the 
 
 **Request:**
 
-    <request>
-      <post>
-        <category-id>#{category_id}</category-id>
-        <title>#{title}</title>
-        <body>#{body}</body>
-        <private>1</private> <!-- only for firm employees -->
-      </post>
-      <notify>#{person_id}</notify>
-      <notify>#{person_id}</notify>
-      ...
-      <attachments>
-        <name>#{name}</name> <!-- optional -->
-        <file>
-          <file>#{temp_id}</file> <!-- the id of the previously uploaded file -->
-          <content-type>#{content_type}</content-type>
-          <original-filename>#{original_filename}</original-filename>
-        </file>
-      </attachments>
-      <attachments>...</attachments>
-      ...
-    </request>
+``` xml
+<request>
+  <post>
+    <category-id>#{category_id}</category-id>
+    <title>#{title}</title>
+    <body>#{body}</body>
+    <private>1</private> <!-- only for firm employees -->
+  </post>
+  <notify>#{person_id}</notify>
+  <notify>#{person_id}</notify>
+  ...
+  <attachments>
+    <name>#{name}</name> <!-- optional -->
+    <file>
+      <file>#{temp_id}</file> <!-- the id of the previously uploaded file -->
+      <content-type>#{content_type}</content-type>
+      <original-filename>#{original_filename}</original-filename>
+    </file>
+  </attachments>
+  <attachments>...</attachments>
+  ...
+</request>
+```
+
 
 **Response:**
 
@@ -110,9 +124,12 @@ This endpoint will also return a custom HTTP header, `X-Update-Action` indicatin
 
 **Response:**
 
-    <post>
-      ...
-    </post>
+``` xml
+<post>
+  ...
+</post>
+
+```
 
 
 Update message
@@ -124,18 +141,21 @@ Note: you can also upload files using this function, but you need to upload the 
 
 **Request:**
 
-    <request>
-      <post>
-        <category-id>#{category_id}</category-id>
-        <title>#{title}</title>
-        <body>#{body}</body>
-        <private>1</private> <!-- only for firm employees -->
-        <notify-about-changes>1</notify-about-changes>
-      </post>
-      <notify>#{person_id}</notify>
-      <notify>#{person_id}</notify>
-      ...
-    </request>
+``` xml
+<request>
+  <post>
+    <category-id>#{category_id}</category-id>
+    <title>#{title}</title>
+    <body>#{body}</body>
+    <private>1</private> <!-- only for firm employees -->
+    <notify-about-changes>1</notify-about-changes>
+  </post>
+  <notify>#{person_id}</notify>
+  <notify>#{person_id}</notify>
+  ...
+</request>
+```
+
 
 **Response:**
 

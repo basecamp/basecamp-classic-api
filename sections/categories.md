@@ -10,10 +10,12 @@ Get category
 
 **Response:**
 
-    <category>
-      <name>Documents</name>
-      ...
-    <category>
+``` xml
+<category>
+  <name>Documents</name>
+  ...
+<category>
+```
 
 Get categories
 --------------
@@ -24,13 +26,16 @@ To filter by type, pass the `type` parameter, which can be one of `post` or `att
 
 **Response:**
 
-    <categories>
-      <category>
-        <name>Documents</name>
-        ...
-      </category>
-      ...
-    </categories>
+``` xml
+<categories>
+  <category>
+    <name>Documents</name>
+    ...
+  </category>
+  ...
+</categories>
+```
+
 
 Create category
 ---------------
@@ -41,10 +46,13 @@ The `type` attribute is required and must be one of `post` or `attachment`.
 
 **Request:**
 
-    <category>
-      <type>post</type>
-      <name>Transcripts</name>
-    </category>
+``` xml
+<category>
+  <type>post</type>
+  <name>Transcripts</name>
+</category>
+```
+
 
 **Response:**
 
@@ -57,9 +65,12 @@ Update category
 
 **Request:**
 
-    <category>
-      <name>Transcripts</name>
-    </category>
+``` xml
+<category>
+  <name>Transcripts</name>
+</category>
+```
+
 
 **Response:**
 
