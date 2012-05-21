@@ -6,6 +6,18 @@ This is the API for Basecamp Classic (basecamphq.com). Check out the API for the
 The Basecamp Classic API is implemented as vanilla XML over HTTP using all four verbs (GET/POST/PUT/DELETE). Every resource, like Post, Comment, or TodoList, has their own URL and are manipulated in isolation. We've tried to make the API follow the REST principles as much as we can.
 
 
+Wrappers and example code
+-------------------------
+
+* [Ruby basecamp-wrapper by anibalcucco](https://github.com/anibalcucco/basecamp-wrapper)
+* [Python Basecamp Wrapper by Jochen](http://homework.nwsnet.de/products/3cd4_basecamp-wrappera)
+* [Python basecampreporting by cmheisel](http://github.com/cmheisel/basecampreporting/)
+* [PHP API Wrapper by sirprize](http://github.com/sirprize/basecamp)
+* [Java API Wrapper by johndavidjohn](API Wrapper by johndavidjohn)
+
+Wrote your own API wrapper? Feel free to open a pull request and add to this list!
+
+
 Authentication
 --------------
 
