@@ -41,11 +41,10 @@ API Endpoints
 * [Todo List Items](https://github.com/37signals/basecamp-classic-api/blob/master/sections/todo_list_items.md)
 * [Calendar Entries](https://github.com/37signals/basecamp-classic-api/blob/master/sections/calendar_entries.md)
 * [Time Tracking](https://github.com/37signals/basecamp-classic-api/blob/master/sections/time_tracking.md)
-
 * [Attachments](https://github.com/37signals/basecamp-classic-api/blob/master/sections/attachments.md)
 * [Files](https://github.com/37signals/basecamp-classic-api/blob/master/sections/files.md)
 
-[Data Reference](https://github.com/37signals/basecamp-classic-api/blob/master/sections/data_reference.md)
+Need a sample of each XML blob will look like? Check out the [Data Reference](https://github.com/37signals/basecamp-classic-api/blob/master/sections/data_reference.md).
 
 
 Responses
@@ -72,8 +71,8 @@ Documentation Conventions
 
 To make things easier to understand, the following notation is used:
 
-* #{text}: Indicates text that should be replaced by your own data
-* ...: Indicates content from the response has been elided for brevity in documentation. See the list of data responses at the end of the page for a full description of the format of that response type.
+* `#{text}`: Indicates text that should be replaced by your own data
+* `...`: Indicates content from the response has been elided for brevity in documentation. See the list of data responses at the end of the page for a full description of the format of that response type.
 
 
 Help us make it better
