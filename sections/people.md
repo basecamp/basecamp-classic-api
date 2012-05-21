@@ -8,11 +8,13 @@ Current person
 
 **Response:**
 
-    <person>
-      <id type="integer">#{id}</id>
-      <user-name>#{user_name}</user-name>
-      ...
-    </person>
+``` xml
+<person>
+  <id type="integer">#{id}</id>
+  <user-name>#{user_name}</user-name>
+  ...
+</person>
+```
 
 
 Get people (across projects)
@@ -26,12 +28,14 @@ Admins can include deleted people using the `?include_deleted=true` query parame
 
 **Response:**
 
-    <people>
-      <person>
-        ...
-      </person>
-      ...
-    </people>
+``` xml
+<people>
+  <person>
+    ...
+  </person>
+  ...
+</people>
+```
 
 
 Get person
@@ -41,6 +45,8 @@ Get person
 
 **Response:**
 
-    <person>
-      ...
-    </person>
+``` xml
+<person>
+  ...
+</person>
+```
