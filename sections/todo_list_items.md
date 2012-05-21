@@ -1,6 +1,8 @@
 Todo List Items
 ===============
 
+For the full XML representation of todo items, [check out the data reference](https://github.com/37signals/basecamp-classic-api/blob/master/sections/data_reference.md#todo_item).
+
 Get all items (for a list)
 --------------------------
 

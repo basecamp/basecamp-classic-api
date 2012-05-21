@@ -1,24 +1,6 @@
 Data Reference
 ==============
 
-Abbreviated post
-----------------
-
-``` xml
-<post>
-  <id type="integer">#{id}</id>
-  <title>#{title}</title>
-  <author-name>#{author_name}</author-name>
-  <posted-on type="datetime">#{posted_on}</posted-on>
-  <commented-at type="datetime">#{commented_at}</commented-at>
-  <attachments-count type="integer">#{attachments_count}</attachments-count>
-  <category>
-    <id type="integer">#{id}</id>
-    <name>#{name}</name>
-  </category>
-</post>
-```
-
 Account
 -------
 
@@ -266,6 +248,24 @@ Post
 
   <!-- if user can see private posts -->
   <private type="boolean">#{private}</private>
+</post>
+```
+
+Post (Abbreviated)
+------------------
+
+``` xml
+<post>
+  <id type="integer">#{id}</id>
+  <title>#{title}</title>
+  <author-name>#{author_name}</author-name>
+  <posted-on type="datetime">#{posted_on}</posted-on>
+  <commented-at type="datetime">#{commented_at}</commented-at>
+  <attachments-count type="integer">#{attachments_count}</attachments-count>
+  <category>
+    <id type="integer">#{id}</id>
+    <name>#{name}</name>
+  </category>
 </post>
 ```
 

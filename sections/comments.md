@@ -3,6 +3,8 @@ Comments
 
 The comments API is identical for Messages, Milestones, Todo Items, and Calendar Events, the only difference being the resource named in URL prefix. This can be one of `posts`, `milestones`, `todo_items`, or `calendar_events`, respectively. In the documentation that follows, the generic `#{resource}` should be replaced with the resource you are acting on.
 
+For the full XML representation of comments, [check out the data reference](https://github.com/37signals/basecamp-classic-api/blob/master/sections/data_reference.md#comment).
+
 Get recent comments (for a commentable resource)
 ------------------------------------------------
 

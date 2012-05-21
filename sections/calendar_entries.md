@@ -1,6 +1,8 @@
 Calendar Entries
 ================
 
+For the full XML representation of calendar entries, [check out the data reference](https://github.com/37signals/basecamp-classic-api/blob/master/sections/data_reference.md#calendar_entry).
+
 Get all calendar entries
 ------------------------
 

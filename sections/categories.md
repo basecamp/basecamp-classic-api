@@ -3,6 +3,8 @@ Categories
 
 The categories API is identical for both Post categories, and Attachment categories, the only difference being the "type" parameter, which can be either "post" or "attachment".
 
+For the full XML representation of categories, [check out the data reference](https://github.com/37signals/basecamp-classic-api/blob/master/sections/data_reference.md#category).
+
 Get category
 ------------
 

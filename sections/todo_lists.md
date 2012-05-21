@@ -1,6 +1,8 @@
 Todo lists
 ==========
 
+For the full XML representation of todo lists, [check out the data reference](https://github.com/37signals/basecamp-classic-api/blob/master/sections/data_reference.md#todo_list).
+
 Get all lists (across projects)
 -------------------------------
 
