@@ -6,6 +6,8 @@ Get projects
 
 * `GET /projects.xml` returns all accessible projects. This includes active, inactive, and archived projects.
 
+**Response:**
+
     <projects>
       <project>
         ...
@@ -20,7 +22,11 @@ Get projects
 Project counts
 --------------
 
-* `GET /projects/count.xml` returns a count of all projects, by project status. If there are no projects with a particular status, that status entry will be omitted from the report.
+* `GET /projects/count.xml` returns a count of all projects, by project status.
+
+If there are no projects with a particular status, that status entry will be omitted from the report.
+
+**Response:**
 
     <count>
       <active type="integer">5</active>
@@ -28,11 +34,12 @@ Project counts
       <archived type="integer">11</active>
     </count>
 
-
 Get project
 -----------
 
 * `GET /projects/#{project_id}.xml` returns a single project identified by its integer ID
+
+**Response:**
 
     <project>
       <name>Design Review</name>
@@ -68,7 +75,7 @@ Update project
 
 Only administrative users may update project records. You only need to provide the attributes you wish to update; others ought to be omitted from the request.
 
-Request
+**Request:**
 
     <project>
       <name type="string">Shopping Cart Redesign</name>
@@ -80,6 +87,6 @@ Request
       <show-announcement>true|false</show-announcement>
     </project>
 
-**Response**
+**Response:**
 
-Response with 200 OK on success. Otherwise, returns an error code (e.g. 422 or 403), possibly including a payload describing the error.
+Returns 200 OK on success. Otherwise, returns an error code (e.g. 422 or 403), possibly including a payload describing the error.
