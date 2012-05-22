@@ -25,7 +25,7 @@ If you're making a private integration with Basecamp Classic for your own purpos
 
 If you're making a public integration with Basecamp Classic for others to enjoy, you must use OAuth 2. This allows users to authorize your application to use Basecamp Classic on their behalf without having to copy/paste API tokens or touch sensitive login info.
 
-Read the [37signals API Authentication Guide](https://github.com/37signals/api-authentication) for more info on using OAuth.
+Read the [37signals API Authentication Guide](https://github.com/37signals/api/tree/master/sections/authentication.md) for more info on using OAuth.
 
 Your API token can be found by logging into your Basecamp Classic account, clicking on the "My Info" link in the upper-right, and then clicking the "Show your tokens" at the bottom (under "Authentication tokens").
 
