@@ -57,6 +57,8 @@ API Endpoints
 * [Attachments](https://github.com/37signals/basecamp-classic-api/blob/master/sections/attachments.md)
 * [Files](https://github.com/37signals/basecamp-classic-api/blob/master/sections/files.md)
 
+(Hint: Press `t` to enable the file finder and type out the endpoint you need!)
+
 Need a sample of each XML blob will look like? Check out the [Data Reference](https://github.com/37signals/basecamp-classic-api/blob/master/sections/data_reference.md).
 
 
