@@ -78,7 +78,7 @@ Only administrative users may update project records. You only need to provide t
 <project>
   <name type="string">Shopping Cart Redesign</name>
   <start-page type="string">log|all|todos|milestones|files</start-page>
-  <status>active|on-hold|archived</status>
+  <status>active|on_hold|archived</status>
   <company-id>#{client-id}</company-id>
   <show-writeboards>true|false</show-writeboards>
   <announcement>...</announcement>
