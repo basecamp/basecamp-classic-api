@@ -112,7 +112,7 @@ To make the entry a milestone, set `type` to `Milestone`. To make a company resp
 Update calendar entry
 ---------------------
 
-* `POST /projects/#{project_id}/calendar_entries/#{id}.xml` modifies a calendar entry.
+* `PUT /projects/#{project_id}/calendar_entries/#{id}.xml` modifies a calendar entry.
 
 Supplying a different value for `type` can convert a calendar event to a milestone and vice versa. You can use this to shift the deadline of a single milestone, and optionally shift the deadlines of subsequent milestones as well.
 
