@@ -13,7 +13,7 @@ Wrappers and example code
 * [Python Basecamp Wrapper by Jochen](http://homework.nwsnet.de/products/3cd4_basecamp-wrappera)
 * [Python basecampreporting by cmheisel](http://github.com/cmheisel/basecampreporting/)
 * [PHP API Wrapper by sirprize](http://github.com/sirprize/basecamp)
-* [Java API Wrapper by johndavidjohn](API Wrapper by johndavidjohn)
+* [Java API Wrapper by johndavidjohn](https://github.com/jondavidjohn/java-basecamp-api-wrapper)
 
 Wrote your own API wrapper? Feel free to open a pull request and add to this list!
 
