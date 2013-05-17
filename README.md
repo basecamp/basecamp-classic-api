@@ -41,6 +41,16 @@ Be sure to set both the 'Content-Type' and 'Accept' headers to 'application/xml'
       -d '<todo-item><content>...</content></todo-item>' \
     https://url/todo_lists/123/todo_items.xml
 
+
+Identify your app
+-----------------
+
+You should include a `User-Agent` header with the name of your application and a link to it or your email address so we can get in touch in case you're doing something wrong (so we may warn you before you're blacklisted) or something awesome (so we may congratulate you). Here's a couple of examples:
+
+    User-Agent: Freshbooks (http://freshbooks.com/contact.php)
+    User-Agent: Fabian's Ingenious Integration (fabian@example.com) 
+
+
 API Endpoints
 -------------
 
