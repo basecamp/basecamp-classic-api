@@ -10,6 +10,8 @@ Get messages
 
 * `GET /projects/#{project_id}/posts.xml` returns the 25 most recent messages in the given project.
 * `GET /projects/#{project_id}/cat/#{category_id}/posts.xml` returns the most 25 most recent messages in the given project for the given category.
+ 
+Messages are paginated using offsets. If 25 elements are returned (the page limit), use `?n=25` to fetch the next 25, and so on.
 
 **Response:**
 
