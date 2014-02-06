@@ -1,7 +1,7 @@
 Files
 =====
 
-For the full XML representation of files, [check out the data reference](https://github.com/37signals/basecamp-classic-api/blob/master/sections/data_reference.md#attachment).
+For the full XML representation of files, [check out the data reference](https://github.com/basecamp/basecamp-classic-api/blob/master/sections/data_reference.md#attachment).
 
 Get files
 ---------

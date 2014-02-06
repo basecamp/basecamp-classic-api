@@ -1,7 +1,7 @@
 Attachments
 ===========
 
-For accessing files on a given project, please see the [Files API](https://github.com/37signals/basecamp-classic-api/blob/master/sections/files.md).
+For accessing files on a given project, please see the [Files API](https://github.com/basecamp/basecamp-classic-api/blob/master/sections/files.md).
 
 Attaching files via the API
 ---------------------------

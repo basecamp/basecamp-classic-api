@@ -1,7 +1,7 @@
 Basecamp Classic API
 ====================
 
-This is the API for Basecamp Classic (basecamphq.com). Check out the API for the all new Basecamp (basecamp.com) [on GitHub](https://github.com/37signals/bcx-api).
+This is the API for Basecamp Classic (basecamphq.com). Check out the API for the all new Basecamp (basecamp.com) [on GitHub](https://github.com/basecamp/bcx-api).
 
 The Basecamp Classic API is implemented as vanilla XML over HTTP using all four verbs (GET/POST/PUT/DELETE). Every resource, like Post, Comment, or TodoList, has their own URL and are manipulated in isolation. We've tried to make the API follow the REST principles as much as we can.
 
@@ -27,7 +27,7 @@ Your API token can be found by logging into your Basecamp Classic account, click
 
 If you're making a public integration with Basecamp Classic for others to enjoy, you can also use OAuth 2. This allows users to authorize your application to use Basecamp Classic on their behalf without having to copy/paste API tokens or touch sensitive login info.
 
-Read the [37signals API Authentication Guide](https://github.com/37signals/api/tree/master/sections/authentication.md) for more info on using OAuth.
+Read the [Basecamp API Authentication Guide](https://github.com/basecamp/api/tree/master/sections/authentication.md) for more info on using OAuth.
 
 
 
@@ -54,23 +54,23 @@ You should include a `User-Agent` header with the name of your application and a
 API Endpoints
 -------------
 
-* [Account](https://github.com/37signals/basecamp-classic-api/blob/master/sections/account.md)
-* [Projects](https://github.com/37signals/basecamp-classic-api/blob/master/sections/projects.md)
-* [People](https://github.com/37signals/basecamp-classic-api/blob/master/sections/people.md)
-* [Companies](https://github.com/37signals/basecamp-classic-api/blob/master/sections/companies.md)
-* [Categories](https://github.com/37signals/basecamp-classic-api/blob/master/sections/categories.md)
-* [Messages](https://github.com/37signals/basecamp-classic-api/blob/master/sections/messages.md)
-* [Comments](https://github.com/37signals/basecamp-classic-api/blob/master/sections/comments.md)
-* [Todo Lists](https://github.com/37signals/basecamp-classic-api/blob/master/sections/todo_lists.md)
-* [Todo List Items](https://github.com/37signals/basecamp-classic-api/blob/master/sections/todo_list_items.md)
-* [Calendar Entries](https://github.com/37signals/basecamp-classic-api/blob/master/sections/calendar_entries.md)
-* [Time Tracking](https://github.com/37signals/basecamp-classic-api/blob/master/sections/time_tracking.md)
-* [Attachments](https://github.com/37signals/basecamp-classic-api/blob/master/sections/attachments.md)
-* [Files](https://github.com/37signals/basecamp-classic-api/blob/master/sections/files.md)
+* [Account](https://github.com/basecamp/basecamp-classic-api/blob/master/sections/account.md)
+* [Projects](https://github.com/basecamp/basecamp-classic-api/blob/master/sections/projects.md)
+* [People](https://github.com/basecamp/basecamp-classic-api/blob/master/sections/people.md)
+* [Companies](https://github.com/basecamp/basecamp-classic-api/blob/master/sections/companies.md)
+* [Categories](https://github.com/basecamp/basecamp-classic-api/blob/master/sections/categories.md)
+* [Messages](https://github.com/basecamp/basecamp-classic-api/blob/master/sections/messages.md)
+* [Comments](https://github.com/basecamp/basecamp-classic-api/blob/master/sections/comments.md)
+* [Todo Lists](https://github.com/basecamp/basecamp-classic-api/blob/master/sections/todo_lists.md)
+* [Todo List Items](https://github.com/basecamp/basecamp-classic-api/blob/master/sections/todo_list_items.md)
+* [Calendar Entries](https://github.com/basecamp/basecamp-classic-api/blob/master/sections/calendar_entries.md)
+* [Time Tracking](https://github.com/basecamp/basecamp-classic-api/blob/master/sections/time_tracking.md)
+* [Attachments](https://github.com/basecamp/basecamp-classic-api/blob/master/sections/attachments.md)
+* [Files](https://github.com/basecamp/basecamp-classic-api/blob/master/sections/files.md)
 
 (Hint: Press `t` to enable the file finder and type out the endpoint you need!)
 
-Need a sample of each XML blob will look like? Check out the [Data Reference](https://github.com/37signals/basecamp-classic-api/blob/master/sections/data_reference.md).
+Need a sample of each XML blob will look like? Check out the [Data Reference](https://github.com/basecamp/basecamp-classic-api/blob/master/sections/data_reference.md).
 
 
 Responses
@@ -104,6 +104,6 @@ To make things easier to understand, the following notation is used:
 Help us make it better
 ----------------------
 
-Please tell us how we can make this API better. If you have a specific feature request or if you found a bug, please [open a support ticket](http://help.37signals.com/tickets/new). Also, feel free to fork these docs and send a pull request with improvements!
+Please tell us how we can make this API better. If you have a specific feature request or if you found a bug, please [open a support ticket](http://help.basecamp.com/tickets/new). Also, feel free to fork these docs and send a pull request with improvements!
 
-To talk with us and other developers about the API, subscribe to the [37signals-api mailing list](http://groups.google.com/group/37signals-api).
+To talk with us and other developers about the API, [post a question on StackOverflow](http://stackoverflow.com/questions/ask) tagged `basecamp` or [open a support ticket](http://help.basecamp.com/tickets/new).

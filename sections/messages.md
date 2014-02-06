@@ -3,7 +3,7 @@ Messages
 
 The Messages API names its resource "posts", not "messages".
 
-For the full XML representation of messages, [check out the data reference](https://github.com/37signals/basecamp-classic-api/blob/master/sections/data_reference.md#message).
+For the full XML representation of messages, [check out the data reference](https://github.com/basecamp/basecamp-classic-api/blob/master/sections/data_reference.md#message).
 
 Get messages
 ------------
