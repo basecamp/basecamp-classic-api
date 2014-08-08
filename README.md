@@ -50,6 +50,7 @@ You should include a `User-Agent` header with the name of your application and a
     User-Agent: Freshbooks (http://freshbooks.com/contact.php)
     User-Agent: Fabian's Ingenious Integration (fabian@example.com) 
 
+Requests made without an identifiable User-Agent are much more tightly rate-limited.
 
 API Endpoints
 -------------
@@ -81,8 +82,19 @@ If a request succeeds, it will return a status code in the 200 range and often, 
 
 Rate limiting
 -------------
-You can perform up to 500 requests per 10 second period from the same IP address for the same account. If you exceed this limit, you'll get a 503 response for subsequent requests. Check the Retry-After header to see how many seconds to wait before trying again.
+API requests are subject to rate limiting. Design your API client to expect and properly respond when you encounter a rate-limited response.
 
+A rate limit is based on the number of requests made within a time window. For example, 100 requests within a minute. If you make more requests than that in a minute, subsequent requests will be rate-limited for the following minute.
+
+When you exceed a rate limit, you'll get a 503 or 429 response with a Retry-After header indicating how many seconds to wait before trying again. Wait until that time has elapsed and resume your requests. Retrying the request before the time window has elapsed will flag your API client for flooding.
+
+Rate limits in effect as of August 2014, per source IP and Basecamp account:
+
+* GET: 500 requests per 10 seconds
+* Non-GET: 100 requests per 10 seconds
+* No User-Agent header: 60 requests per minute
+
+It's especially important to set an identifiable User-Agent header. If you exceed 60 requests in a minute, your client will need to wait a full minute to resume.
 
 SSL Usage
 ---------
