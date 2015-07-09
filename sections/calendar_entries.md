@@ -83,7 +83,9 @@ Create calendar entry
 
 * `POST /projects/#{project_id}/calendar_entries.xml` creates a new calendar entry.
 
-To make the entry a milestone, set `type` to `Milestone`. To make a company responsible for the milestone, prefix the company id with a `c`.
+To make the entry a milestone, set `type` to `Milestone`. To make a company responsible for the milestone, prefix the company id with a `c`.  
+
+For `datetime`, format your entry like so: `2009-10-09T17:52:46Z` or `2009-10-09T17:52:46+00:00`
 
 **Request:**
 
