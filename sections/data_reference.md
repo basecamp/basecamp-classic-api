@@ -278,7 +278,7 @@ Project
   <name>#{name}</name>
   <created-on type="datetime">#{created_on}</created-on>
   <status>#{status}</status>
-  <last-changed-on type="datetiem">#{last_changed_on}</last-changed-on>
+  <last-changed-on type="datetime">#{last_changed_on}</last-changed-on>
   <company>
     <id type="integer">#{id}</id>
     <name>#{name}</name>
