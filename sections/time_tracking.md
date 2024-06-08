@@ -6,10 +6,10 @@ For the full XML representation of time entries, [check out the data reference](
 Get all entries
 ---------------
 
-* `GET /projects/#{project_id}/time_entries.xml` returns a page full of time entries for the given project, in descending order by date.
 * `GET /todo_items/#{todo_item_id}/time_entries.xml` returns all time entries associated with the given todo item, in descending order by date.
+* `GET /projects/#{project_id}/time_entries.xml` returns a page full of time entries for the given project, in descending order by date.
 
-Each page contains up to 50 time entry records. To select a different page of data, set the `page` query parameter to a value greater than zero. The `X-Records` HTTP header will be set to the total number of time entries in the project, `X-Pages` will be set to the total number of pages, and `X-Page` will be set to the current page.
+For the project time entries request, each page contains up to 50 time entry records. To select a specific page, set the `page` query parameter to 1 or larger. The `X-Records` HTTP header will be set to the total number of time entries in the project, `X-Pages` will be set to the total number of pages, and `X-Page` will be set to the current page.
 
 **Response:**
 
