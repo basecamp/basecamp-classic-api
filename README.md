@@ -1,7 +1,7 @@
 Basecamp Classic API
 ====================
 
-This is the API for Basecamp Classic (basecamphq.com). It is not compatable with the [Basecamp 2 API](https://github.com/basecamp/bcx-api) or [Basecamp 3 API](https://github.com/basecamp/bc3-api).
+This is the API for Basecamp Classic (basecamphq.com). It is not compatible with the [Basecamp 2 API](https://github.com/basecamp/bcx-api) or [Basecamp 3 API](https://github.com/basecamp/bc3-api).
 
 The Basecamp Classic API is implemented as vanilla XML over HTTP using all four verbs (GET/POST/PUT/DELETE). Every resource, like Post, Comment, or TodoList, has their own URL and are manipulated in isolation. We've tried to make the API follow the REST principles as much as we can.
 
